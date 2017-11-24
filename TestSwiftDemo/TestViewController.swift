@@ -19,7 +19,7 @@ class TestViewController: UIViewController {
     view.addSubview(testView)
   }
   
-  func buttonClick() {
+  @objc func buttonClick() {
     print("hehehehe")
   }
   
